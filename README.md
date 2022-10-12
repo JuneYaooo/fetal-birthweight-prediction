@@ -15,3 +15,6 @@ conda activate birthweight # activate the environment
 ## 3. Modify sample and get result
 
 change the parameters in pred.py and run it!
+
+
+please contact author to get models
