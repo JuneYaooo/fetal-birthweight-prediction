@@ -53,5 +53,3 @@ data_dict = {
     'AFI_Sum': 115.0, # 羊水指数合计
                 }
 ```
-
-please contact author to get models
