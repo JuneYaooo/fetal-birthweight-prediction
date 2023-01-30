@@ -34,22 +34,22 @@ The whole zip package includes the models that had been trained. Please put them
 change the parameters in pred.py and run it! such as:
 ```python
 data_dict = {
-    'Preg_Days': 274, # 怀孕天数，用于计算孕周
-    'pre_weight': 69.0, #孕前体重
-    'maternal_weight_last': 81.3, #末次产检体重
-    'days_last_ul_to_delivery': 7, # 末次超声距分娩天数
-    'pre_BMI': 23.7, #孕前BMI
-    'GWG': 12.3, #孕期体重增加，可以通过计算得出
-    'GA_last_inspect': 7, #末次产检距分娩天数
-    'GDM': 0, # 妊娠期糖尿病，1，0P
-    'Parity': 1, #产次，整数
-    'BPD': 95.0, # 双顶径，单位mm
-    'HC': 335.0, # 头围，单位mm
-    'FL': 70.0, # 股骨长，单位mm
-    'HL': 60.0, # 肱骨长，单位mm
-    'AC': 332.0, # 腹围，单位mm
-    'TTD': 106.0, # 腹左右径，单位mm
-    'APTD': 106.0, # 腹前后径，单位mm
-    'AFI_Sum': 115.0, # 羊水指数合计
+    'Preg_Days': 274, # Days of pregnancy, used to calculate gestational weeks
+    'pre_weight': 69.0, #pre-pregnancy weight
+    'maternal_weight_last': 81.3, #last birth weight
+    'days_last_ul_to_delivery': 7, # Days from last ultrasound to delivery
+    'pre_BMI': 23.7, #pre-pregnancy BMI
+    'GWG': 12.3, #Weight gain during pregnancy, which can be calculated by
+    'GA_last_inspect': 7, #Days from the last check-up to delivery
+    'GDM': 0, # gestational diabetes，1 or 0
+    'Parity': 1, #parity, integer
+    'BPD': 95.0, # Biparietal diameter，mm
+    'HC': 335.0, # head circumference，mm
+    'FL': 70.0, # femur length，mm
+    'HL': 60.0, # humerus length，mm
+    'AC': 332.0, # abdominal circumference，mm
+    'TTD': 106.0, # abdominal left and right diameter，mm
+    'APTD': 106.0, # Abdominal anteroposterior diameter，mm
+    'AFI_Sum': 115.0, # total amniotic fluid index
                 }
 ```
